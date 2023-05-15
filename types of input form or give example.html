@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form>
+        <fieldset> 
+            <legend>user detail!!</legend> 
+            <!-- country name -->
+            <label for="nationality">country name</label>
+            <input type="text" name="country" id="country" value="india" readonly disabled>
+            <!-- {value}=it is used for default value and user can change it. 
+               {readonly}=it is used as default value and user can not change it.
+           {disabled}=it is used a default value and user can't even select it-->
+            <br>
+            <br>
+        <!--fr input name-->
+        <label for=" name"> name</label>
+        <input type="text" id="name" autofocus>
+        <!-- autfocous is used for focusing the box in filling time -->
+        <br> 
+        <br>
+        <!--for address-->
+        please enter your address:
+        <textarea name="" id="" cols="20" rows="2"></textarea>
+       <br>
+       <BR>
+       <!-- for input DOB-->
+        <label for="DOB">DOB</label>
+        <input type="date" id="dob"> 
+        <br><br>
+        <label for="age">your age</label>
+        <input type="number" min="18" max="60">
+        <!-- min and max tag used -->
+        <br>
+        <br>
+        <!--for input password-->
+        <label for="password">enter your password</label>
+        <input type="password" id="password">
+        <br>
+        <br>
+        <!--for select gender & choose one f them-->
+       <label for="gender">please select your gender:</label> 
+        <br>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="transgender">transgender</label>
+        <input type="radio" id="transgender" name="gender">
+        <!-- for taking multiple choice-->
+        <br>
+        <br>
+        <label for="avenger">favourite movie:</label>
+        <br>
+        <label for="avenger">thor:</label>
+        <input type="checkbox" name="thor" id="thor">
+        <label for="avenger">iron man:</label>
+        <input type="checkbox" name="thor" id="iron man">
+        <label for="avenger">hulk:</label>
+        <input type="checkbox" name="thor" id="hulk">
+        <br>
+        <br>
+        <!--for suggest to fill an email-->
+        <label for="user email">enter your email</label>
+        <input type="email" name="usermail" id="usermail" placeholder="email@gmail.com"><!-- placeholder tag is used for showing email as an example inside the box-->
+        <br>
+        <br>
+        <label for="mobile number">enter your mobile number</label>
+        <input type="mobile number" placeholder="xxxxxxxxxx">
+        <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+    </form>
+</body>
+</html>
+</body>
+</html>
